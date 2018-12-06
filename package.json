@@ -1,7 +1,7 @@
 {
   "name": "@parse/s3-files-adapter",
-  "version": "1.2.1",
-  "description": "AWS S3 adapter for parse-server",
+  "version": "1.0.0",
+  "description": "Tencent COS adapter for parse-server",
   "main": "index.js",
   "scripts": {
     "pretest": "npm run lint",
@@ -10,21 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parse-community/parse-server-s3-adapter.git"
+    "url": "git+https://github.com/sailstech/parse-server-cos-adapter.git"
   },
   "keywords": [
     "parse-server",
-    "AWS",
-    "S3"
+    "Tencent",
+    "COS"
   ],
-  "author": "Parse",
+  "author": "SAILSTech",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/parse-community/parse-server-s3-adapter/issues"
+    "url": "https://github.com/sailstech/parse-server-cos-adapter"
   },
-  "homepage": "https://github.com/parse-community/parse-server-s3-adapter#readme",
+  "homepage": "https://github.com/sailstech/parse-server-cos-adapter#readme",
   "dependencies": {
-    "aws-sdk": "^2.59.0"
+    "cos-nodejs-sdk-v5": "^2.5.0"
   },
   "devDependencies": {
     "codecov": "^3.0.0",

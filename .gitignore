@@ -36,3 +36,5 @@ node_modules
 .idea/
 
 .eslintcache
+
+/parse-server-cos-adapter.iml
