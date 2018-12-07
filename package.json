@@ -1,5 +1,5 @@
 {
-  "name": "@parse/s3-files-adapter",
+  "name": "parse-cos-adapter",
   "version": "1.0.0",
   "description": "Tencent COS adapter for parse-server",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "Tencent",
     "COS"
   ],
-  "author": "SAILSTech",
+  "author": "Richard Chin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sailstech/parse-server-cos-adapter"
